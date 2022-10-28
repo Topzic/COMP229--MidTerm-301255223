@@ -1,3 +1,11 @@
+/*
+    Project:        Booklist Webapp
+    Author:         Ian Cunningham
+    Student ID:     301255223
+    Date:           10/28/2022
+    File:           server.js
+*/
+
 import debug from 'debug';
 debug('comp-229');
 import http from 'http';

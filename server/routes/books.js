@@ -1,3 +1,11 @@
+/*
+    Project:        Booklist Webapp
+    Author:         Ian Cunningham
+    Student ID:     301255223
+    Date:           10/28/2022
+    File:           books.js
+*/
+
 // modules required for routing
 import { Router } from "express";
 
@@ -10,6 +18,7 @@ router.get('/books/list', displayBookList);
 
 //  GET the Book Details page in order to add a new Book
 router.get('/books/add', displayAddPage);
+
 // POST process the Book Details page and create a new Book - CREATE
 router.post('/books/add', processAddPage);
 

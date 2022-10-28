@@ -9,7 +9,9 @@
                     <input type="text" class="form-control"
                     id="nameTextField"
                     placeholder="Enter the Book Title"
-                    name="name" required>
+                    name="name" 
+                    value="<%= books.name %>"
+                    required>
                 </div>
 
                 <div class="form-group">
@@ -17,6 +19,7 @@
                     <input type="text" class="form-control"
                     id="authorTextField"
                     placeholder="Enter the Book's Author"
+                    value="<%= books.title %>"
                     name="author" required>
                 </div>
 
@@ -25,6 +28,7 @@
                     <input type="text" class="form-control"
                     id="publishedTextField"
                     placeholder="Enter the Year of Publication"
+                    value="<%= books.published %>"
                     name="published" required>
                 </div>
 
@@ -33,6 +37,7 @@
                     <textarea type="text" class="form-control"
                     id="descriptionTextArea"
                     placeholder="Enter the a brief description of the book"
+                    value="<%= books.description %>"
                     name="description" required></textarea>
                 </div>
 
@@ -41,6 +46,7 @@
                     <input type="text" class="form-control"
                     id="priceTextField"
                     placeholder="Enter the Book's Price"
+                    value="<%= books.price %>"
                     name="price" required>
                 </div>
 
