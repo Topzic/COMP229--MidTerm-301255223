@@ -6,11 +6,11 @@
     File:           index.js
 */
 
+// imports
 import { Router } from 'express';
+import {DisplayHomePage} from '../controllers/index.js';
 
 let router = Router();
-
-import {DisplayHomePage} from '../controllers/index.js';
 
 /* Display home page. */
 router.get('/', DisplayHomePage);
@@ -18,4 +18,5 @@ router.get('/', DisplayHomePage);
 /* Display home page. */
 router.get('/home', DisplayHomePage);
 
+// exports
 export default router;

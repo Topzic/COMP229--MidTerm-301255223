@@ -6,12 +6,13 @@
     File:           server.js
 */
 
+// imports
 import debug from 'debug';
-debug('comp-229');
 import http from 'http';
 import { HttpError} from 'http-errors';
-
 import app from './server/config/app.js';
+
+debug('comp-229');
 
 const PORT = normalizePort(process.env.PORT || '3000');
 app.set('port', PORT);
